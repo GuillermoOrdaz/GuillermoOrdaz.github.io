@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ejercicio 8 - Formularios con Flexbox</title>
+    <link rel="stylesheet" href="CSS/eje-GOR-08.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Regresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div id="div-container">
+                <div id="div-image">
+                    <img src="imagenes/audifonos-ok.png" alt=""/>
+                </div>
+                <div id="div-form">
+                    <h1>Detalles de pago</h1>
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Digite su nombre" />
+
+                        <label for="numero-tarjeta">Numero de tarjeta</label>
+                        <input type="text" id="numero-tarjeta" placeholder="Digite el numero de su tarjeta" />
+
+                        <label for="mes">Fecha de vencimiento</label>
+                        <input type="text" id="mes" placeholder="MM" />
+                        <input type="text" id="anio" placeholder="YY" />
+                        <label for="cvc">CVC</label>
+                        <input type="text" id="cvc" placeholder="123" />
+                        <input type="checkbox" checked/>
+                        <span>Guardar su tarjeta para compras futuras</span>
+                        <input type="submit" id="boton-pagar" value="PAGAR AHORA"/>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados. Guillermo Ordaz Rodriguez</p>
+    </footer>
+</body>
+</html>
